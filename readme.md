@@ -28,7 +28,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/InfinitiveOS/platform_manifest -b io-1.0
+$ repo init -u https://github.com/Infinitive-OS/platform_manifest -b io-1.0
 ```
 
 ### Downloading the source tree ###
@@ -56,9 +56,3 @@ $ cd WORKSPACE
 $ . build/envsetup.sh
 $ brunch device
 ```
-
-## Submitting Patches ##
-
-We're open source and patches are always welcome!
-
-You can see the status of all patches at [Gerrit Code Review](http://gerrit.aogp-devs.com/).
