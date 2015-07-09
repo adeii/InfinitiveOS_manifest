@@ -468,9 +468,9 @@
   <project path="packages/services/Telecomm" name="Infinitive-OS/packages_services_Telecomm" remote="io" />
   <project path="packages/services/Telephony" name="Infinitive-OS/packages_services_Telephony" remote="io" />
   <project path="packages/apps/ScreenRecorder" name="Infinitive-OS/packages_apps_ScreenRecorder" remote="io" />
-  <project path="vendor/io" name="vendor_io" remote="io" revision="io-1.0" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="io" revision="io-1.0" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="io" revision="io-1.0" />
+  <project path="vendor/io" name="Infinitive-OS/vendor_io" remote="io" />
+  <project path="packages/providers/ContactsProvider" name="Infinitive-OS/packages_providers_ContactsProvider" remote="io" />
+  <project path="packages/providers/MediaProvider" name="Infinitive-OS/packages_providers_MediaProvider" remote="io" />
 
 
 
