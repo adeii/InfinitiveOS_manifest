@@ -471,8 +471,7 @@
   <project path="vendor/io" name="Infinitive-OS/vendor_io" remote="io" />
   <project path="packages/providers/ContactsProvider" name="Infinitive-OS/packages_providers_ContactsProvider" remote="io" />
   <project path="packages/providers/MediaProvider" name="Infinitive-OS/packages_providers_MediaProvider" remote="io" />
-
-
+  <project path="frameworks/opt/net/wifi" name="Infinitive-OS/android_frameworks_opt_net_wifi" remote="io" />
 
   <!-- CyanogenMod Device Hardware Repos -->
   
@@ -511,7 +510,6 @@
    <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
-   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
    <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="github" revision="cm-12.1" />
    <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-12.1" />
