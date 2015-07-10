@@ -465,6 +465,7 @@
   <project path="packages/apps/InCallUI" name="Infinitive-OS/packages_apps_InCallUI" remote="io" />
   <project path="packages/apps/IOLauncher" name="Infinitive-OS/packages_apps_IOLauncher" remote="io" />
   <project path="packages/apps/Settings" name="Infinitive-OS/packages_apps_Settings" remote="io" />
+  <project path="packages/apps/PackageInstaller" name="Infinitive-OS/packages_apps_PackageInstaller" remote="io" />
   <project path="packages/services/Telecomm" name="Infinitive-OS/packages_services_Telecomm" remote="io" />
   <project path="packages/services/Telephony" name="Infinitive-OS/packages_services_Telephony" remote="io" />
   <project path="packages/apps/ScreenRecorder" name="Infinitive-OS/packages_apps_ScreenRecorder" remote="io" />
