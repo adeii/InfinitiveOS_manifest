@@ -273,7 +273,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
@@ -457,6 +456,7 @@
   <!-- InfinitiveOS Repos -->
   <project path="platform_manifest" name="Infinitive-OS/platform_manifest" remote="github" revision="io-1.0" />
   <project path="frameworks/base" name="Infinitive-OS/frameworks_base" groups="pdk-cw-fs" remote="io" />
+  <project path="frameworks/native" name="Infinitive-OS/frameworks_native" remote="io" />
   <project path="frameworks/opt/telephony" name="Infinitive-OS/frameworks_opt_telephony" groups="pdk" remote="io" />
   <project path="frameworks/webview" name="Infinitive-OS/frameworks_webview" groups="pdk" remote="io" />
   <project path="packages/apps/Contacts" name="Infinitive-OS/packages_apps_Contacts" remote="io" />
