@@ -323,7 +323,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="lp5.1" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.1" />
@@ -459,11 +458,13 @@
   <project path="frameworks/native" name="Infinitive-OS/frameworks_native" remote="io" />
   <project path="frameworks/opt/telephony" name="Infinitive-OS/frameworks_opt_telephony" groups="pdk" remote="io" />
   <project path="frameworks/webview" name="Infinitive-OS/frameworks_webview" groups="pdk" remote="io" />
+  <project path="packages/apps/Browser" name="Infinitive-OS/packages_apps_Browser" remote="io" />
   <project path="packages/apps/Contacts" name="Infinitive-OS/packages_apps_Contacts" remote="io" />
   <project path="packages/apps/ContactsCommon" name="Infinitive-OS/packages_apps_ContactsCommon" remote="io" />
   <project path="packages/apps/Dialer" name="Infinitive-OS/packages_apps_Dialer" remote="io" />
   <project path="packages/apps/InCallUI" name="Infinitive-OS/packages_apps_InCallUI" remote="io" />
   <project path="packages/apps/IOLauncher" name="Infinitive-OS/packages_apps_IOLauncher" remote="io" />
+  <project path="packages/apps/IOWallpapers" name="Infinitive-OS/packages_apps_IOWallpapers" remote="io" />
   <project path="packages/apps/Settings" name="Infinitive-OS/packages_apps_Settings" remote="io" />
   <project path="packages/apps/PackageInstaller" name="Infinitive-OS/packages_apps_PackageInstaller" remote="io" />
   <project path="packages/services/Telecomm" name="Infinitive-OS/packages_services_Telecomm" remote="io" />
