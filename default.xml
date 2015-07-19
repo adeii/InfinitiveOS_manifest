@@ -474,6 +474,12 @@
   <project path="packages/providers/ContactsProvider" name="Infinitive-OS/packages_providers_ContactsProvider" remote="io" />
   <project path="packages/providers/MediaProvider" name="Infinitive-OS/packages_providers_MediaProvider" remote="io" />
   <project path="frameworks/opt/net/wifi" name="Infinitive-OS/android_frameworks_opt_net_wifi" remote="io" />
+  
+  <!-- InfinitiveOS Build Script -->
+  <project path="InfinitiveOS-build-script" name="Infinitive-OS/InfinitiveOS-build-script" remote="io" >
+    <copyfile src="io.sh" dest="io.sh" />
+    <copyfile src="rom-build.sh" dest="rom-build.sh" />
+  </project>
 
   <!-- CyanogenMod Device Hardware Repos -->
   
