@@ -421,7 +421,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="lp5.1" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="lp5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -470,6 +469,7 @@
   <project path="packages/services/Telecomm" name="Infinitive-OS/packages_services_Telecomm" remote="io" />
   <project path="packages/services/Telephony" name="Infinitive-OS/packages_services_Telephony" remote="io" />
   <project path="packages/apps/ScreenRecorder" name="Infinitive-OS/packages_apps_ScreenRecorder" remote="io" />
+  <project path="system/core" name="Infinitive-OS/system_core" remote="io" />
   <project path="vendor/io" name="Infinitive-OS/vendor_io" remote="io" />
   <project path="packages/providers/ContactsProvider" name="Infinitive-OS/packages_providers_ContactsProvider" remote="io" />
   <project path="packages/providers/MediaProvider" name="Infinitive-OS/packages_providers_MediaProvider" remote="io" />
