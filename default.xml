@@ -143,7 +143,6 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
@@ -221,7 +220,6 @@
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
@@ -342,7 +340,6 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" remote="github" revision="lp5.1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
@@ -553,6 +550,9 @@
    <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-12.1" />
    <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-12.1" />
    <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-12.1" />   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-12.1" />
+   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-12.1" />
+   <project path="external/icu" name="CyanogenMod/android_external_icu" remote="github" revision="cm-12.1" />
+   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-12.1" />
 
 
    <!-- Audio -->
