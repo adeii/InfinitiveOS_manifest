@@ -26,7 +26,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -194,7 +193,6 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" />
   <project path="external/lz4" name="SlimRoms/android_external_lz4" remote="github" revision="lp5.1" />
-  <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs" />
@@ -238,7 +236,6 @@
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="lp5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
@@ -471,6 +468,7 @@
   <project path="packages/providers/MediaProvider" name="Infinitive-OS/packages_providers_MediaProvider" remote="io" />
   <project path="frameworks/opt/net/wifi" name="Infinitive-OS/android_frameworks_opt_net_wifi" remote="io" />
   <project path="packages/apps/LockClock" name="Infinitive-OS/packages_apps_LockClock" remote="io" />
+  <project path="bionic" name="Infinitive-OS/android_bionic" remote="io" />
 
   <!-- InfinitiveOS Build Script -->
   <project path="InfinitiveOS-build-script" name="Infinitive-OS/InfinitiveOS-build-script" remote="io" >
@@ -479,7 +477,9 @@
   </project>
 
   <!-- CyanogenMod Device Hardware Repos -->
-  
+
+   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" remote="github" revision="cm-12.1" />
+   <project path="external/lzma" name="CyanogenMod/android_external_lzma" remote="github" revision="cm-12.1" />
    <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
    <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-12.1" />
    <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="cm-12.1" />
