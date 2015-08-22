@@ -551,9 +551,11 @@
    <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-12.1" />
    <project path="external/icu" name="CyanogenMod/android_external_icu" remote="github" revision="cm-12.1" />
    <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-12.1" />
-
-
+   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" remote="github" revision="master" />
+   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" remote="github" revision="master" />
+   
    <!-- Audio -->
+
    <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1" />
    <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8084" />
    <project path="hardware/qcom/audio-caf/msm8226" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8226" />
@@ -589,5 +591,8 @@
    <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
    <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
    <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
+
+  <!-- CM SDK -->
+  <project path="vendor/cmsdk" name="Infinitive-OS/cm_platform_sdk" remote="io" />
 
 </manifest>
