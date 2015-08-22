@@ -469,7 +469,6 @@
   <project path="frameworks/opt/net/wifi" name="Infinitive-OS/android_frameworks_opt_net_wifi" remote="io" />
   <project path="packages/apps/LockClock" name="Infinitive-OS/packages_apps_LockClock" remote="io" />
   <project path="bionic" name="Infinitive-OS/android_bionic" remote="io" />
-  <project path="frameworks/opt/hardware" name="Infinitive-OS/frameworks_opt_hardware" remote="io" />
 
   <!-- InfinitiveOS Build Script -->
   <project path="InfinitiveOS-build-script" name="Infinitive-OS/InfinitiveOS-build-script" remote="io" >
@@ -514,6 +513,7 @@
    <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
    <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-12.1" />
+   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="github" revision="cm-12.1" />
