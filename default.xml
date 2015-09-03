@@ -412,7 +412,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="lp5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
@@ -468,6 +467,7 @@
   <project path="frameworks/opt/net/wifi" name="Infinitive-OS/android_frameworks_opt_net_wifi" remote="io" />
   <project path="packages/apps/LockClock" name="Infinitive-OS/packages_apps_LockClock" remote="io" />
   <project path="bionic" name="Infinitive-OS/android_bionic" remote="io" />
+  <project path="system/extras/su" name="Infinitive-OS/android_system_extras_su" remote="io" />
 
   <!-- InfinitiveOS Build Script -->
   <project path="InfinitiveOS-build-script" name="Infinitive-OS/InfinitiveOS-build-script" remote="io" >
