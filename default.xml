@@ -468,6 +468,7 @@
   <project path="packages/apps/LockClock" name="Infinitive-OS/packages_apps_LockClock" remote="io" />
   <project path="bionic" name="Infinitive-OS/android_bionic" remote="io" />
   <project path="system/extras/su" name="Infinitive-OS/android_system_extras_su" remote="io" />
+  <project path="packages/apps/FloatingActionButton" name="Infinitive-OS/android-floating-action-button" remote="io" />
 
   <!-- InfinitiveOS Build Script -->
   <project path="InfinitiveOS-build-script" name="Infinitive-OS/InfinitiveOS-build-script" remote="io" >
