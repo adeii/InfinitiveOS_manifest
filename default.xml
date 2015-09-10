@@ -519,6 +519,7 @@
    <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="github" revision="cm-12.1" />
    <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="github" revision="cm-12.1" />
+   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="cm-12.1" />
    <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-12.1" />
    <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-12.1" />
    <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-12.1" />
