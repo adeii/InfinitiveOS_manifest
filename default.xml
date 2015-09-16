@@ -453,7 +453,7 @@
   <project path="packages/apps/Dialer" name="Infinitive-OS/packages_apps_Dialer" remote="io" />
   <project path="packages/apps/InCallUI" name="Infinitive-OS/packages_apps_InCallUI" remote="io" />
   <project path="packages/apps/IOWallpapers" name="Infinitive-OS/packages_apps_IOWallpapers" remote="io" />
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
+  <project path="packages/apps/SlimLauncher" name="Infinitive-OS/packages_apps_SlimLauncher" remote="io" />
   <project path="packages/apps/KernelAdiutor" name="Infinitive-OS/packages_apps_KernelAdiutor" remote="io" />
   <project path="packages/apps/Settings" name="Infinitive-OS/packages_apps_Settings" remote="io" />
   <project path="packages/apps/PackageInstaller" name="Infinitive-OS/packages_apps_PackageInstaller" remote="io" />
