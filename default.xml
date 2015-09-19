@@ -459,6 +459,7 @@
   <project path="packages/apps/PackageInstaller" name="Infinitive-OS/packages_apps_PackageInstaller" remote="io" />
   <project path="packages/services/Telecomm" name="Infinitive-OS/packages_services_Telecomm" remote="io" />
   <project path="packages/services/Telephony" name="Infinitive-OS/packages_services_Telephony" remote="io" />
+  <project path="packages/providers/TelephonyProvider" name="Infinitive-OS/packages_providers_TelephonyProvider" remote="io" />
   <project path="packages/apps/ScreenRecorder" name="Infinitive-OS/packages_apps_ScreenRecorder" remote="io" />
   <project path="system/core" name="Infinitive-OS/system_core" remote="io" />
   <project path="vendor/io" name="Infinitive-OS/vendor_io" remote="io" />
@@ -549,7 +550,6 @@
    <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
    <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-12.1" />
    <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-12.1" />
-   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-12.1" />   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-12.1" />
    <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-12.1" />
    <project path="external/icu" name="CyanogenMod/android_external_icu" remote="github" revision="cm-12.1" />
    <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-12.1" />
