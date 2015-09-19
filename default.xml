@@ -17,7 +17,7 @@
   <remote  name="iod"
            fetch="https://github.com/InfinitiveOS-Devices" />
 
-  <default revision="refs/tags/android-5.1.1_r18"
+  <default revision="refs/tags/android-5.1.1_r13"
            remote="aosp"
            sync-j="4" />
 
