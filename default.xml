@@ -20,6 +20,7 @@
   <project path="build" name="android_build" remote="github" revision="io-1.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="android_art" remote="github" revision="m-6.0" />
   <project path="platform_manifest" name="platform_manifest" remote="github" revision="m-6.0" />
   <project path="frameworks/base" name="frameworks_base" remote="io" revision="m-6.0" />
   <project path="frameworks/native" name="frameworks_native" remote="io" revision="m-6.0" />
@@ -47,6 +48,8 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="io" revision="m-6.0" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="io" revision="m-6.0" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="io" revision="m-6.0" />
+  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="io" revision="m-6.0" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="io" revision="m-6.0" />
 
   <!-- InfinitiveOS Build Script -->
   <project path="InfinitiveOS-build-script" name="InfinitiveOS-build-script" remote="io" revision="m-6.0" >
@@ -56,7 +59,6 @@
 
   <!-- AOSP-->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -303,7 +305,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -406,7 +407,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
