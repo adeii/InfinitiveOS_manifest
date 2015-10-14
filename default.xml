@@ -20,8 +20,8 @@
   <project path="build" name="android_build" remote="github" revision="io-1.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="android_art" remote="github" revision="m-6.0" />
-  <project path="platform_manifest" name="platform_manifest" remote="github" revision="m-6.0" />
+  <project path="art" name="android_art" remote="io" revision="m-6.0" />
+  <project path="platform_manifest" name="platform_manifest" remote="io" revision="m-6.0" />
   <project path="frameworks/base" name="frameworks_base" remote="io" revision="m-6.0" />
   <project path="frameworks/native" name="frameworks_native" remote="io" revision="m-6.0" />
   <project path="frameworks/av" name="frameworks_av" remote="io" revision="m-6.0" />
