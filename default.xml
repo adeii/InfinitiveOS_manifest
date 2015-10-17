@@ -51,6 +51,7 @@
   <project path="system/qcom" name="Infinitive-OS/system_qcom" groups="qcom" />
   <project path="system/security" name="Infinitive-OS/system_security" groups="pdk" />
   <project path="system/vold" name="Infinitive-OS/system_vold" groups="pdk" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="Infinitive-OS/android_vendor_qcom_opensource_display-frameworks" />
 
   <!-- Audio -->
 
