@@ -52,6 +52,8 @@
   <project path="system/security" name="Infinitive-OS/system_security" groups="pdk" />
   <project path="system/vold" name="Infinitive-OS/system_vold" groups="pdk" />
   <project path="vendor/qcom/opensource/display-frameworks" name="Infinitive-OS/android_vendor_qcom_opensource_display-frameworks" />
+  <project path="hardware/qcom/wlan" name="Infinitive-OS/hardware_qcom_wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan-caf" name="Infinitive-OS/hardware_qcom_wlan" groups="qcom_wlan" revision="m-6.0-caf" />
 
   <!-- Audio -->
 
@@ -388,7 +390,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
