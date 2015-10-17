@@ -54,6 +54,9 @@
   <project path="vendor/qcom/opensource/display-frameworks" name="Infinitive-OS/android_vendor_qcom_opensource_display-frameworks" />
   <project path="hardware/qcom/wlan" name="Infinitive-OS/hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/qcom/wlan-caf" name="Infinitive-OS/hardware_qcom_wlan" groups="qcom_wlan" revision="m-6.0-caf" />
+  <project path="external/ant-wireless/ant_native" name="Infinitive-OS/external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="Infinitive-OS/external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="Infinitive-OS/external_ant-wireless_antradio-library" />
 
   <!-- Audio -->
 
