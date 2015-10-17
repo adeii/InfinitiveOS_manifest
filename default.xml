@@ -45,18 +45,18 @@
   <project path="frameworks/opt/net/ims" name="Infinitive-OS/android_frameworks_opt_net_ims" />
   <project path="frameworks/opt/hardware" name="Infinitive-OS/frameworks_opt_hardware" />
   <project path="packages/apps/PackageInstaller" name="Infinitive-OS/packages_apps_PackageInstaller" />
-  <project path="system/keymaster" name="Infinitive-OS/android_system_keymaster" groups="pdk" />
-  <project path="system/media" name="Infinitive-OS/android_system_media" groups="pdk" />
-  <project path="system/netd" name="Infinitive-OS/android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="Infinitive-OS/android_system_qcom" groups="qcom" />
-  <project path="system/security" name="Infinitive-OS/android_system_security" groups="pdk" />
-  <project path="system/vold" name="Infinitive-OS/android_system_vold" groups="pdk" />
+  <project path="system/keymaster" name="Infinitive-OS/system_keymaster" groups="pdk" />
+  <project path="system/media" name="Infinitive-OS/system_media" groups="pdk" />
+  <project path="system/netd" name="Infinitive-OS/system_netd" groups="pdk" />
+  <project path="system/qcom" name="Infinitive-OS/system_qcom" groups="qcom" />
+  <project path="system/security" name="Infinitive-OS/system_security" groups="pdk" />
+  <project path="system/vold" name="Infinitive-OS/system_vold" groups="pdk" />
 
   <!-- Audio -->
 
   <project path="hardware/qcom/audio/default" name="Infinitive-OS/hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/apq8084" name="Infinitive-OS/hardware_qcom_audio" groups="qcom,qcom_audio" revision="m-6.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="Infinitive-OS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="m-6.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="Infinitive-OS/hardware_qcom_audio" groups="qcom,qcom_audio" revision="m-6.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="Infinitive-OS/hardware_qcom_audio" groups="qcom,qcom_audio" revision="m-6.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="Infinitive-OS/hardware_qcom_audio" groups="qcom,qcom_audio" revision="m-6.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="Infinitive-OS/hardware_qcom_audio" groups="qcom,qcom_audio" revision="m-6.0-caf-8994" />
@@ -335,7 +335,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
