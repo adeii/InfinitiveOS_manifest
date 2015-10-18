@@ -62,6 +62,7 @@
   <project path="external/tinyxml2" name="Infinitive-OS/external_tinyxml2" groups="pdk" />
   <project path="packages/apps/FMRadio" name="Infinitive-OS/packages_apps_FMRadio" groups="pdk-fs" />
   <project path="external/mm-dash" name="Infinitive-OS/external_mm-dash" />
+  <project path="system/bt" name="Infinitive-OS/system_bt" />
 
   <!-- Audio -->
 
@@ -500,7 +501,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
