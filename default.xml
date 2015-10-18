@@ -64,6 +64,7 @@
   <project path="external/mm-dash" name="Infinitive-OS/external_mm-dash" />
   <project path="system/bt" name="Infinitive-OS/system_bt" />
   <project path="hardware/libhardware" name="Infinitive-OS/hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="Infinitive-OS/hardware_libhardware_legacy" groups="pdk" />
 
   <!-- Audio -->
 
@@ -383,7 +384,6 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
