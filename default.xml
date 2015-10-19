@@ -63,8 +63,12 @@
   <project path="packages/apps/FMRadio" name="Infinitive-OS/packages_apps_FMRadio" groups="pdk-fs" />
   <project path="external/mm-dash" name="Infinitive-OS/external_mm-dash" />
   <project path="system/bt" name="Infinitive-OS/system_bt" />
+  <project path="hardware/qcom/bt" name="Infinitive-OS/hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/bt-caf" name="Infinitive-OS/hardware_qcom_bt" groups="qcom" revision="m-6.0-caf" />
   <project path="hardware/libhardware" name="Infinitive-OS/hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="Infinitive-OS/hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/ril" name="Infinitive-OS/hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" name="Infinitive-OS/hardware_ril" groups="pdk" revision="m-6.0-caf" />
 
   <!-- Audio -->
 
@@ -387,7 +391,6 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" remote="aosp" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" remote="aosp" />
@@ -398,7 +401,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" />
