@@ -69,6 +69,8 @@
   <project path="hardware/libhardware_legacy" name="Infinitive-OS/hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="Infinitive-OS/hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="Infinitive-OS/hardware_ril" groups="pdk" revision="m-6.0-caf" />
+  <project path="packages/apps/PhoneCommon" name="Infinitive-OS/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/BluetoothExt" name="Infinitive-OS/packages_apps_BluetoothExt" />
 
   <!-- Audio -->
 
@@ -433,7 +435,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"  remote="aosp"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" remote="aosp" />
