@@ -45,6 +45,7 @@
   <project path="frameworks/opt/net/ims" name="Infinitive-OS/android_frameworks_opt_net_ims" />
   <project path="frameworks/opt/hardware" name="Infinitive-OS/frameworks_opt_hardware" />
   <project path="packages/apps/PackageInstaller" name="Infinitive-OS/packages_apps_PackageInstaller" />
+  <project path="system/extras" name="Infinitive-OS/system_extras" groups="pdk" />
   <project path="system/keymaster" name="Infinitive-OS/system_keymaster" groups="pdk" />
   <project path="system/media" name="Infinitive-OS/system_media" groups="pdk" />
   <project path="system/netd" name="Infinitive-OS/system_netd" groups="pdk" />
@@ -70,6 +71,7 @@
   <project path="hardware/ril" name="Infinitive-OS/hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="Infinitive-OS/hardware_ril" groups="pdk" revision="m-6.0-caf" />
   <project path="packages/apps/PhoneCommon" name="Infinitive-OS/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="Infinitive-OS/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" name="Infinitive-OS/packages_apps_BluetoothExt" />
 
   <!-- Audio -->
@@ -410,7 +412,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" remote="aosp" />
@@ -504,7 +505,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
