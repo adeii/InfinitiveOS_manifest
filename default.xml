@@ -69,6 +69,7 @@
   <project path="hardware/qcom/bt-caf" name="Infinitive-OS/hardware_qcom_bt" groups="qcom" revision="m-6.0-caf" />
   <project path="hardware/libhardware" name="Infinitive-OS/hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="Infinitive-OS/hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/keymaster" name="Infinitive-OS/hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/ril" name="Infinitive-OS/hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="Infinitive-OS/hardware_ril" groups="pdk" revision="m-6.0-caf" />
   <project path="packages/apps/PhoneCommon" name="Infinitive-OS/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
@@ -397,7 +398,6 @@
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" remote="aosp" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
