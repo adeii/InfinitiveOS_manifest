@@ -78,6 +78,7 @@
   <project path="packages/apps/BluetoothExt" name="Infinitive-OS/packages_apps_BluetoothExt" />
   <project path="external/libphonenumbergoogle" name="Infinitive-OS/external_libphonenumbergoogle" />
   <project path="external/yaffs2" name="Infinitive-OS/external_yaffs2" />
+  <project path="external/stagefright-plugins" name="Infinitive-OS/external_stagefright-plugins" />
 
   <!-- Audio -->
 
