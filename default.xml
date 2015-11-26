@@ -79,6 +79,7 @@
   <project path="external/libphonenumbergoogle" name="Infinitive-OS/external_libphonenumbergoogle" />
   <project path="external/yaffs2" name="Infinitive-OS/external_yaffs2" />
   <project path="external/stagefright-plugins" name="Infinitive-OS/external_stagefright-plugins" />
+  <project path="external/ffmpeg" name="Infinitive-OS/android_external_ffmpeg" />
 
   <!-- Audio -->
 
