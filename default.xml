@@ -70,6 +70,7 @@
   <project path="hardware/libhardware" name="Infinitive-OS/hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="Infinitive-OS/hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/keymaster" name="Infinitive-OS/hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/fm" name="Infinitive-OS/hardware_qcom_fm" groups="qcom,qcom_fm" />
   <project path="hardware/ril" name="Infinitive-OS/hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="Infinitive-OS/hardware_ril" groups="pdk" revision="m-6.0-caf" />
   <project path="packages/apps/PhoneCommon" name="Infinitive-OS/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
