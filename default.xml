@@ -13,71 +13,71 @@
            fetch="https://github.com"
            revision="refs/heads/cm-13.0" />
 	
-  <remote  name="github"
-           fetch="https://github.com/AOSP-CAF"
+  <remote  name="io"
+           fetch="https://github.com/Infinitive-OS"
            revision="refs/heads/mm6.0" />
 
 <!-- BEGIN AOSP-CAF -->
-  <project name="platform_manifest" path="manifest" remote="github" />
-  <project name="platform_build" path="build" remote="github" >
+  <project name="platform_manifest" path="manifest" remote="io" />
+  <project name="platform_build" path="build" remote="io" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" />
-  <project name="platform_art" path="art" remote="github" />
-  <project name="platform_bionic" path="bionic" remote="github" />
-  <project name="platform_development" path="development" remote="github" />
-  <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" />
-  <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" />
-  <project name="platform_external_apache-http" path="external/apache-http" remote="github" />
-  <project name="platform_external_bash" path="external/bash" remote="github" />
-  <project name="platform_external_busybox" path="external/busybox" remote="github" />
-  <project name="platform_external_connectivity" path="external/connectivity" remote="github" />
-  <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="github" />
-  <project name="platform_external_elfutils" path="external/elfutils" remote="github" />
-  <project name="platform_external_exfat" path="external/exfat" remote="github" />
-  <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="github" />
-  <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="github" />
-  <project name="platform_external_ffmpeg" path="external/ffmpeg" remote="github" />
-  <project name="platform_external_fuse" path="external/fuse" remote="github" />
-  <project name="platform_external_iproute2" path="external/iproute2" remote="github" />
-  <project name="platform_external_jpeg" path="external/jpeg" remote="github" />
-  <project name="platform_external_mksh" path="external/mksh" remote="github" />
-  <project name="platform_external_mm-dash" path="external/mm-dash" remote="github" />
-  <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="github" />
-  <project name="platform_external_okhttp" path="external/okhttp" remote="github" />
-  <project name="platform_external_sepolicy" path="external/sepolicy" remote="github" />
-  <project name="platform_external_skia" path="external/skia" remote="github" />
-  <project name="platform_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" />
-  <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="github" />
-  <project name="platform_external_tinycompress" path="external/tinycompress" remote="github" />
-  <project name="platform_external_zlib" path="external/zlib" remote="github" />
-  <project name="platform_frameworks_av" path="frameworks/av" remote="github" />
-  <project name="platform_frameworks_base" path="frameworks/base" remote="github" />
-  <project name="platform_frameworks_native" path="frameworks/native" remote="github" />
-  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="github" />
-  <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" />
-  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" />
-  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="mm6.0-caf" remote="github" />
-  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" />
-  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" />
-  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="mm6.0-caf" remote="github" />
-  <project name="platform_hardware_ril" path="hardware/ril" remote="github" />
-  <project name="platform_hardware_ril" path="hardware/ril-caf" revision="mm6.0-caf" remote="github" />
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
-  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" />
-  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" />
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="github" />
-  <project name="platform_system_core" path="system/core" remote="github" />
-  <project name="platform_system_extras" path="system/extras" remote="github" />
-  <project name="platform_system_media" path="system/media" remote="github" />
-  <project name="platform_system_vold" path="system/vold" remote="github" /> 
-  <project name="platform_system_qcom" path="system/qcom" remote="github" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="github" />
-  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="github" />
-  <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="github" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="io" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="io" />
+  <project name="platform_art" path="art" remote="io" />
+  <project name="platform_bionic" path="bionic" remote="io" />
+  <project name="platform_development" path="development" remote="io" />
+  <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="io" />
+  <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="io" />
+  <project name="platform_external_apache-http" path="external/apache-http" remote="io" />
+  <project name="platform_external_bash" path="external/bash" remote="io" />
+  <project name="platform_external_busybox" path="external/busybox" remote="io" />
+  <project name="platform_external_connectivity" path="external/connectivity" remote="io" />
+  <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="io" />
+  <project name="platform_external_elfutils" path="external/elfutils" remote="io" />
+  <project name="platform_external_exfat" path="external/exfat" remote="io" />
+  <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="io" />
+  <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="io" />
+  <project name="platform_external_ffmpeg" path="external/ffmpeg" remote="io" />
+  <project name="platform_external_fuse" path="external/fuse" remote="io" />
+  <project name="platform_external_iproute2" path="external/iproute2" remote="io" />
+  <project name="platform_external_jpeg" path="external/jpeg" remote="io" />
+  <project name="platform_external_mksh" path="external/mksh" remote="io" />
+  <project name="platform_external_mm-dash" path="external/mm-dash" remote="io" />
+  <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="io" />
+  <project name="platform_external_okhttp" path="external/okhttp" remote="io" />
+  <project name="platform_external_sepolicy" path="external/sepolicy" remote="io" />
+  <project name="platform_external_skia" path="external/skia" remote="io" />
+  <project name="platform_external_stagefright-plugins" path="external/stagefright-plugins" remote="io" />
+  <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="io" />
+  <project name="platform_external_tinycompress" path="external/tinycompress" remote="io" />
+  <project name="platform_external_zlib" path="external/zlib" remote="io" />
+  <project name="platform_frameworks_av" path="frameworks/av" remote="io" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="io" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="io" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="io" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="io" />
+  <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="io" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="io" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="mm6.0-caf" remote="io" />
+  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="io" />
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="io" />
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="mm6.0-caf" remote="io" />
+  <project name="platform_hardware_ril" path="hardware/ril" remote="io" />
+  <project name="platform_hardware_ril" path="hardware/ril-caf" revision="mm6.0-caf" remote="io" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="io" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="io" />
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="io" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="io" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="io" />
+  <project name="platform_system_core" path="system/core" remote="io" />
+  <project name="platform_system_extras" path="system/extras" remote="io" />
+  <project name="platform_system_media" path="system/media" remote="io" />
+  <project name="platform_system_vold" path="system/vold" remote="io" /> 
+  <project name="platform_system_qcom" path="system/qcom" remote="io" />
+  <project name="platform_vendor_io" path="vendor/io" remote="io" />
+  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="io" />
+  <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="io" />
 <!-- END AOSP-CAF -->
 
 <!-- BEGIN CYANOGENMOD -->
