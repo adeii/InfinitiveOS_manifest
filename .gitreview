@@ -1,0 +1,5 @@
+[gerrit]
+host=gerrit.legacyserver.in
+port=29418
+project=platform_manifest.git
+defaultbranch=mm6.0
