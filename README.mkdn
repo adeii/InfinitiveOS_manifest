@@ -39,9 +39,9 @@ and their change histories.
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync -j#
+$ repo sync -c -f --force-sync --no-clone-bundle --no-tags -j#
 # -j# is the no of cores.
-# For example : repo sync -j8
+# For example : repo sync -c -f --force-sync --no-clone-bundle --no-tags -j8
 ```
 
 ## Building ##
