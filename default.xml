@@ -8,6 +8,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r16" />
+  
+  <remote  name="gh"
+           fetch="https://github.com/" />
 
   <remote  name="cm"
            fetch="https://github.com"
@@ -16,6 +19,9 @@
   <remote  name="io"
            fetch="https://github.com/Infinitive-OS"
            revision="refs/heads/mm6.0" />
+  
+  <remote  name="iod"
+           fetch="https://github.com/InfinitiveOS-Devices" />
 
 <!-- BEGIN AOSP-CAF -->
   <project name="platform_manifest" path="manifest" remote="io" />
