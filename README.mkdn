@@ -56,4 +56,3 @@ $ cd WORKSPACE
 $ . build/envsetup.sh
 $ brunch device
 ```
-test
