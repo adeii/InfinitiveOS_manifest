@@ -11,10 +11,6 @@
   
   <remote  name="gh"
            fetch="https://github.com/" />
-
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           revision="refs/heads/cm-13.0" />
 	
   <remote  name="io"
            fetch="https://github.com/Infinitive-OS"
@@ -22,6 +18,8 @@
   
   <remote  name="iod"
            fetch="https://github.com/InfinitiveOS-Devices" />
+
+  <include name="cm.xml" />
 
 <!-- BEGIN Infinitive-OS -->
   <project name="platform_manifest" path="manifest" remote="io" />
@@ -93,19 +91,6 @@
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="io" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="io" />
 <!-- END Infinitive-OS -->
-
-<!-- BEGIN CYANOGENMOD -->
-  <project name="android_external_libncurses" path="external/libncurses" remote="cm" />
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="cm" />
-  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm" />
-  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="cm" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="cm" revision="cm-13.0-caf-8974" />
-<!-- END CYANOGENMOD -->
 
 <!-- BEGIN CODEAURORA -->
   <project groups="pdk-cw-fs" name="device/common"/>
