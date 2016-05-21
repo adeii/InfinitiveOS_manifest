@@ -77,6 +77,7 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="io" />
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="io" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="io" />
+  <project name="platform_packages_apps_SlimLauncher" path="packages/apps/SlimLauncher" remote="io" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="io" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="io" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="io" />
@@ -358,8 +359,6 @@
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
@@ -455,5 +454,5 @@
   <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
 <!-- END CODEAURORA -->
-
+ 
 </manifest>
