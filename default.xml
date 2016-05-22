@@ -76,6 +76,8 @@
   <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="io" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="io" />
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="io" />
+  <project name="platform_packages_apps_Music" path="packages/apps/Music" remote="io" />
+  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="io" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="io" />
   <project name="platform_packages_apps_SlimLauncher" path="packages/apps/SlimLauncher" remote="io" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="io" />
@@ -360,8 +362,6 @@
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
-  <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
-  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
