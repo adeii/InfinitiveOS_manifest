@@ -94,6 +94,7 @@
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="io" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="io" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="io" />
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="io" />
 <!-- END Infinitive-OS -->
 
 <!-- BEGIN CODEAURORA -->
@@ -304,7 +305,6 @@
   <project groups="pdk" name="platform/external/vogar" path="external/vogar"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project groups="pdk-cw-fs" name="platform/external/xmlwriter" path="external/xmlwriter"/>
   <project groups="pdk-cw-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit"/>
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli"/>
