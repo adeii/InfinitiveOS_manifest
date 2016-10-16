@@ -1,4 +1,4 @@
-# Infinitive OS #
+# Infinitive OS (6.0.1, CAF, Slim6-like, AOSP) #
 
 ## Grabbing the source ##
 
