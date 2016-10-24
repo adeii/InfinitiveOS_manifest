@@ -28,7 +28,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/Infinitive-OS/platform_manifest -b io-1.0
+$ repo init -u https://github.com/adeii/InfinitiveOS_manifest -b io-1.0
 ```
 
 ### Downloading the source tree ###
@@ -47,12 +47,12 @@ $ repo sync -j#
 ## Building ##
 
 As the device value, you just feed it with the device codename (for example,
-'hammerhead' for the Nexus 5).
+'u8833' for the Huawei Ascend Y300).
 
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
 $ . build/envsetup.sh
-$ brunch device
+$ time brunch u8951
 ```
