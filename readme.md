@@ -53,6 +53,7 @@ As the device value, you just feed it with the device codename (for example,
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
+# UNZIP io.zip to /device/huawei/msm7x27a-common/patches !!!!!!
 $ . build/envsetup.sh
 $ time brunch u8951
 ```
