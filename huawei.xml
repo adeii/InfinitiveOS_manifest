@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- Device Folders, Kernel & Proprietary BLOBS -->
+     <project path="vendor/huawei" name="CM13-Y300/proprietary_vendor_huawei" remote="gh" revision="cm-13.0"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="SlimLP-Y300/chil360-kernel" remote="gh" revision="mm6.0"/>
+     <project path="device/huawei/msm7x27a-common" name="SlimLP-Y300/android_device_huawei_msm7x27a-common" remote="gh" revision="mm6.0"/>
+     <project path="device/huawei/u8833" name="SlimLP-Y300/android_device_huawei_u8833" remote="gh" revision="mm6.0"/>
+     <project path="device/huawei/u8951" name="SlimLP-Y300/android_device_huawei_u8951" remote="gh" revision="mm6.0"/>
+     <project path="device/huawei/u8825" name="SlimLP-Y300/android_device_huawei_u8825" remote="gh" revision="mm6.0"/>
+
+     <!-- WIFI -->
+     <project path="hardware/atheros/wifi/ath6kl-huawei" name="SlimLP-Y300/android_hardware_atheros_wifi_ath6kl-huawei" remote="gh" revision="master" />
+     <project path="hardware/atheros/wlan" name="CM13-Y300/android_hardware_atheros_wlan" remote="gh" revision="cm-13.0" />
+
+     <!-- GPS -->
+     <!--remove-project name="android_hardware_qcom_gps" / -->
+     <!--project path="hardware/qcom/gps2" name="CM13-Y300/android_hardware_qcom_gps" remote="gh" revision="cm-13.0" / -->
+
+     <project path="external/stlport" name="SlimRoms/android_external_stlport" remote="gh" revision="mm6.0" />
+     <!-- QCOM Hardware -->
+     <project path="hardware/qcom/display-caf/msm7x27a" name="CM13-Y300/android_hardware_qcom_display-caf" remote="gh" revision="cm-13.0" />
+     <project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" remote="gh" revision="lp5.1" />
+   <!-- common devices and custom toolchain -->
+     <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="gh" revision="mm6.0" />
+     <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp"/>
+     <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp"/>
+     <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp"/>
+</manifest>
