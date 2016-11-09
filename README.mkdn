@@ -30,7 +30,9 @@ $ cd WORKSPACE
 # Use a real name/email combination, if you intend to submit patches
 $ repo init -u https://github.com/Infinitive-OS/platform_manifest -b mm6.0
 ```
-
+# Add my local manifest
+$ mkdir .repo/local_manifests
+# Copy huawei.xml to .repo/local_manifests
 ### Downloading the source tree ###
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
@@ -46,13 +48,13 @@ $ repo sync -c -f --force-sync --no-clone-bundle --no-tags -j#
 
 ## Building ##
 
-As the device value, you just feed it with the device codename (for example,
-'hammerhead' for the Nexus 5).
+As the device value, you just feed it with the device codename (for example,'u8951' for the G510).
 
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
+# --- i suggest to delete /device/huawei/msm7x27a-common/patches and overwrite files with files from io2.zip
 $ . build/envsetup.sh
-$ brunch device
+$ time brunch u8833
 ```
